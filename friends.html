@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>友情链接 - 中国文化之美</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .friends-intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #666;
+        }
+        .friend-card {
+            display: flex;
+            align-items: center;
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+        .friend-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        .friend-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            margin-right: 1.5rem;
+            object-fit: cover;
+            background: #fff;
+            padding: 2px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .friend-info {
+            flex: 1;
+        }
+        .friend-name {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .friend-desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .friend-url {
+            color: #999;
+            font-size: 0.85rem;
+        }
+        .back-home {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            border-bottom: 1px dashed var(--primary-color);
+        }
+        .back-home:hover {
+            border-bottom-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>友情链接</h1>
+        <div class="subtitle">携手共建中华文化交流平台</div>
+    </header>
+
+    <main>
+    
+
+        <div class="friends-list">
+            <a href="https://www.playchinese.win" class="friend-card" target="_blank">
+                <img src="images/favicons/default.svg" alt="中文启蒙小游戏" class="friend-avatar">
+                <div class="friend-info">
+                    <h3 class="friend-name">中文启蒙小游戏</h3>
+                    <p class="friend-desc">趣味游戏学习三字经、百家姓、千字文等传统文化经典</p>
+                    <span class="friend-url">playchinese.win</span>
+                </div>
+            </a>
+
+            <a href="https://www.dpm.org.cn" class="friend-card" target="_blank">
+                <img src="https://www.dpm.org.cn/favicon.ico" alt="故宫博物院" class="friend-avatar">
+                <div class="friend-info">
+                    <h3 class="friend-name">故宫博物院</h3>
+                    <p class="friend-desc">中国规模最大的博物馆，收藏了大量珍贵文物</p>
+                    <span class="friend-url">www.dpm.org.cn</span>
+                </div>
+            </a>
+
+            <a href="https://www.nlc.cn" class="friend-card" target="_blank">
+                <img src="https://www.nlc.cn/favicon.ico" alt="中国国家图书馆" class="friend-avatar">
+                <div class="friend-info">
+                    <h3 class="friend-name">中国国家图书馆</h3>
+                    <p class="friend-desc">中国国家总书库，收藏了丰富的中国古籍和文献资料</p>
+                    <span class="friend-url">www.nlc.cn</span>
+                </div>
+            </a>
+
+            <a href="https://www.chnmuseum.cn" class="friend-card" target="_blank">
+                <img src="https://www.chnmuseum.cn/favicon.ico" alt="中国国家博物馆" class="friend-avatar">
+                <div class="friend-info">
+                    <h3 class="friend-name">中国国家博物馆</h3>
+                    <p class="friend-desc">展示中华文明发展历程的综合性博物馆</p>
+                    <span class="friend-url">www.chnmuseum.cn</span>
+                </div>
+            </a>
+
+            <a href="http://www.zgysyjy.org.cn" class="friend-card" target="_blank">
+                <img src="images/favicons/default.svg" alt="中国艺术研究院" class="friend-avatar">
+                <div class="friend-info">
+                    <h3 class="friend-name">中国艺术研究院</h3>
+                    <p class="friend-desc">国家级艺术研究机构，致力于中国传统艺术研究与传承</p>
+                    <span class="friend-url">www.zgysyjy.org.cn</span>
+                </div>
+            </a>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-home">返回首页</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 中国文化之美 | <a href="index.html">网站首页</a> | <a href="friends.html">友情链接</a></p>
+    </footer>
+</body>
+</html> 
