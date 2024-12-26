@@ -148,6 +148,16 @@ footer {
     margin-top: 4rem;
 }
 
+footer a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #333;
+}
+
 @media (max-width: 768px) {
     header {
         padding: 2rem 1rem;
